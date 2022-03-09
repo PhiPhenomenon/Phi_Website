@@ -103,10 +103,10 @@ header {
 	width: 60%;
 	height: 100vh;
 	background-color: #6d0f7296;
-	padding: 4.4rem;
+	padding: 1.4rem;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+	flex-direction:column;
+	justify-content:space-evenly;
 	z-index: 1250;
 	transform: translateX(-100%);
 	transition:  transform .5s;
@@ -144,9 +144,7 @@ header {
 	transform: scale(1);
 }
 
-.nav-item {
-	border-bottom: 2px solid #9900ff;
-}
+
 
 .nav-link {
 	display: block;
