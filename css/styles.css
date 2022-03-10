@@ -103,10 +103,10 @@ header {
 	width: 60%;
 	height: 100vh;
 	background-color: #6d0f7296;
-	padding: 1.4rem;
+	padding: 4.4rem;
 	display: flex;
 	flex-direction:column;
-	justify-content:space-evenly;
+	justify-content: space-around;
 	z-index: 1250;
 	transform: translateX(-100%);
 	transition:  transform .5s;
