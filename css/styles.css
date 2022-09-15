@@ -811,7 +811,7 @@ h3 {
 	font-size: 1.25em;
 }
 .faq-drawer__title {
-	border-top: #000 1px solid;
+	border-top: #fff 1px solid;
 	cursor: pointer;
 	display: block;
 	font-size: 1.75em;
