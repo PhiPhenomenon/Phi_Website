@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  
   padding: 0 30px;
   margin-top: 15px; 
 }
@@ -20,7 +21,6 @@
     -ms-flex: 1;
     flex: 1;
     overflow: hidden;
-    outline: 2px solid white;
     outline-offset: -15px;
     box-shadow: 5px 10px 40px 5px rgba(0, 0, 0, 0.5); }
     .imageContainer .thumbex .thumbnail {
@@ -39,6 +39,8 @@
         height: 100%;
         width: auto;
         transform: translate(-50%, -50%);
+        
+        overflow: hidden;
         backface-visibility: hidden; }
       .imageContainer .thumbex .thumbnail span {
         position: absolute;
@@ -56,11 +58,30 @@
         font-family: "Raleway", sans-serif;
         letter-spacing: 0.2px;
         transition: all 0.3s ease-out; }
+        .imageContainer .thumbex .thumbnail span2 {
+          position: absolute;
+          z-index: 2;
+          top: calc(250px - 20px);
+          left: 0;
+          right: 0;
+          background: rgba(0, 0, 0, 0.7);
+          padding: 10px 10px;
+          margin: 0 0;
+          text-align: center;
+          font-size: 24px;
+          color: white;
+          font-weight: 300;
+          font-family: "Raleway", sans-serif;
+          letter-spacing: 0.2px;
+          transition: all 0.3s ease-out; 
+          opacity: 0;}
       .imageContainer .thumbex .thumbnail:hover {
         backface-visibility: hidden;
         transform: scale(1.1, 1.1);
         opacity: 1; }
         .imageContainer .thumbex .thumbnail:hover span {
           opacity: 0; }
+          .imageContainer .thumbex .thumbnail:hover span2 {
+            opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */
