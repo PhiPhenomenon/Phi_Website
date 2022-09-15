@@ -39,6 +39,7 @@
     background-color: var(--surface-color);      
     transform: translateY(100%);
     transition: .2s ease-in-out;
+    opacity: 0.9;
   }
   
   .card:hover .card__overlay {
@@ -55,6 +56,8 @@
     background-color: var(--surface-color);
     transform: translateY(-100%);
     transition: .2s ease-in-out;
+    
+    opacity: 1;
   }
   
   .card__arc {
@@ -85,7 +88,7 @@
   .card__title {
     font-size: 1em;
     margin: 0 0 .3em;
-    color: #3DCAB5;
+    color: white;
   }
   
   .card__tagline {
