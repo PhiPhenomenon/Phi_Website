@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
 /*Global styles*/
 *,
 *::before,
@@ -9,10 +10,10 @@
 }
 :root{
 	--main-font: 'Source Sans Pro', sans-serif;
-	--secondary-font: 'Herr Von Muellerhoff', cursive;
+	--secondary-font: 'Helvetica 35 Thin', cursive;
 	--body-font: 'Cabin', sans-serif;
 	--main-font-color-dark: #252525;
-	--secondary-font-color: #97149e;
+	--secondary-font-color: #c328cb;
 	--body-font-color: #ffffff;
 }
 
@@ -178,9 +179,9 @@ header {
 	font-size: 2.5rem;
 	font-family: var(--secondary-font);
 	color: var(--secondary-font-color);
-	font-weight: 100;
+	font-weight: 20;
 	line-height: .4;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	opacity: 0;
 	animation: fadeUp .5s forwards;
 	animation-delay: .5s;
@@ -662,7 +663,7 @@ h3 {
 	}
 
 	.sub-headline {
-		font-size: 5rem;
+		font-size: 2.5rem;
 	}
 
 	.first-letter {
@@ -808,7 +809,7 @@ h3 {
 	transition: 0.25s ease-in-out;
 }
 .faq-drawer__content p{
-	font-size: 1.25em;
+	font-size: 1.5em;
 }
 .faq-drawer__title {
 	border-top: #fff 1px solid;
